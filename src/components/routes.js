@@ -15,6 +15,9 @@ import DetalleCompraList  from './detalleCompras/List'
 import DetalleCompraForm  from './detalleCompras/Form'
 import AlmacenList  from './almacenes/List'
 import AlmacenForm  from './almacenes/Form'
+import ProveedorList  from './proveedores/List'
+import ProveedorForm  from './proveedores/Form'
+
 
 import Login from './Login'
 
@@ -230,6 +233,28 @@ const routes = [
         title: 'Editar almacen',
         icon: 'dns',
         component: AlmacenForm,
+        novisible: true
+      },
+        {
+        path: '/catalogo/proveedores/list',
+        exact: true,
+        title: 'Proveedores',
+        icon: 'dns',
+        component: ProveedorList
+      },
+      {
+        path: '/catalogo/proveedores/new',
+        exact: true,
+        title: 'Proveedor',
+        component: ProveedorForm,
+        novisible: true
+      },
+      {
+        path: '/catalogo/proveedor/edit/:id',
+        exact: true,
+        title: 'Editar proveedor',
+        icon: 'dns',
+        component: ProveedorForm,
         novisible: true
       },
     ]

@@ -9,6 +9,7 @@ import venta from './venta-reducer'
 import detalleVenta from './detalleVenta-reducer'
 import detalleCompra from './detalleCompra-reducer'
 import almacen from './almacen-reducer'
+import proveedor from './proveedor-reducer'
 //import ecomm from './ecommReducer'
 import themeReducer from './appLayoutReducer'
 
@@ -23,6 +24,7 @@ var reducers = combineReducers({
   detalleVenta: detalleVenta,
   detalleCompra: detalleCompra,
   almacen: almacen,
+  proveedor: proveedor,
   //  ecomm: ecomm,
   theme:themeReducer,
 
