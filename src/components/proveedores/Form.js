@@ -24,8 +24,8 @@ class Form extends Component {
         super(props);
         this.state = {
             id: props.data ? props.data.id : null,
-            Empresa: props.data ? props.data.empresa : '',
-            Ruc: props.data ? props.data.ruc : ''
+            empresa: props.data ? props.data.empresa : '',
+            ruc: props.data ? props.data.ruc : ''
             
         }
     }

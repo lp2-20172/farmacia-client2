@@ -250,7 +250,7 @@ const routes = [
         novisible: true
       },
       {
-        path: '/catalogo/proveedor/edit/:id',
+        path: '/catalogo/proveedores/edit/:id',
         exact: true,
         title: 'Editar proveedor',
         icon: 'dns',
